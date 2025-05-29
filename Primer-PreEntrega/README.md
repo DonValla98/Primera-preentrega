@@ -1,4 +1,4 @@
-Este proyecto es una Pree-Entrega de proyecto Final para curso de Front del ministerio de educacion argentina.
+Este proyecto es una Pree-Entrega de proyecto Final para curso de Front-ent.
 Estara formado por imagenes y fuentes de internet.
 
 El formato sera de la siguiente manera: Logo/Barra de navegacion/Productos/videos/formulario/pie de pagina.
