@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaRacingMotors</title>
+    <link rel="stylesheet" href="../Primer-PreEntrega/RacingMotors.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Primer-PreEntrega/media/Videos/Imagenes/Burstfire speed shop.jpg" width="150" height="150" alt="Logo CFmotos">   
+        <nav class="Inicio">
+            <ul class="flex-link">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio"></section>
+
+        <section id="productos">
+            <h2 class="Productos">Productos</h2>
+            <div class="flex-container">
+                <div class="Item">
+                    <img src="../Primer-PreEntrega/media/Videos/Imagenes/Cfmotos Nk 450.webp" alt="" width="300" height="200">
+                    <p class="precio"> $10.498.990</p>
+                    <p class="descripcion">La CFMOTO 450 NK es una moto naked ágil y moderna, ideal para ciudad y paseos deportivos, con motor bicilíndrico de 449 cc.</p>
+                    <button class="Reservar">Reservar</button>
+                    <h2>Maxima Velocidad CFMOTO 450NK</h2>
+                    <video controls poster="/Primer-PreEntrega/media/Videos/Imagenes/Logo CFmotos.jpg" width="320" height="240">
+                        <source src="/Primer-PreEntrega/media/Videos/Cfmotos Nk 450  full.mp4" type="video/mp4">
+                        Tu Navegador no soporta la reproducción del video 
+                    </video>
+                </div>
+
+                <div class="Item2">
+                    <img src="../Primer-PreEntrega/media/Videos/Imagenes/Moto Honda 250.jpg" alt="" width ="300" height="300">
+                    <p class="precio"> $9.150.000</p>
+                    <p class="descripcion">La Honda Tornado 250 es una moto on-off versátil, ideal para ciudad y caminos rurales, con motor monocilíndrico de 250 cc y gran rendimiento.</p>
+                    <button class="Reservar2">Reservar</button>
+                    <h2> Maxima Velocidad Tornado 250</h2>
+                    <video controls poster="/Primer-PreEntrega/media/Videos/Imagenes/Logo Honda.jpg" width="320" height="240">
+                        <source src="/Primer-PreEntrega/media/Videos/Top speed Tornado 2023.mp4" type="video/mp4">    
+                        TU navegador no soporta la reproducción del video
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactos"></section>
+
+        <section id="formulario" class="form-section">
+            <h2 class="form-titulo">Formulario</h2>
+            <form action="https://formspree.io/f/xrbqvknj" method="POST">
+                <label for="email">Tu email:</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu email">
+
+                <label for="mensaje">Tu Mensaje:</label>
+                <textarea id="mensaje" name="Mensaje de Consulta" rows="1" placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Racing Motors. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

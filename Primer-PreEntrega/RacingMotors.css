@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #170029;
+    font-family: 'Poetsen One', Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Barra de Navegacion*/
+.Inicio {
+    text-align: center;
+}
+
+.flex-link {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*Productos*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.Item {
+    border: 2px solid black;
+}
+
+.Productos {
+    text-align: center;
+}
+
+.precio {
+    font-size: x-large;
+}
+
+.descripcion {
+    font-size: medium;
+    margin-left: 1%;
+}
+
+.Reservar {
+    background-color: #192f9c;
+    margin-left: 1%;
+    margin-top: 2%;
+    color: white;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.Item2 {
+    margin-top: 5%;
+}
+
+.Reservar2 {
+    background-color: #192f9c;
+    margin-left: 1%;
+    margin-top: 2%;
+    color: white;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.form-section {
+    background-color: #243B4A;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+.footer {
+    background-color: #805E73;
+    color: black;
+    padding: 5%;
+    margin-top: 2%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Poetsen One', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*media Queries*/
+
+@media only screen and (max-width: 400px) {
+    .form-section {
+        background-color: #170029;
+        color: #192f9c;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .form-section {
+        background-color: #243B4A;
+        color: #192f9c;
+    }
+}
